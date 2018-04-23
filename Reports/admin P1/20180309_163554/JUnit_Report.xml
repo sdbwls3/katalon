@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="admin P1" time="5" tests="0" failures="3" errors="0">
+   <testsuite name="admin P1" tests="0" failures="3" errors="0" time="5" timestamp="2018-03-09 16:35:56" hostname="hwanta - tt" id="Test Suites/admin P1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_163554"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_163554\\execution0.log, C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_163554\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )"/>
+         <system-out><![CDATA[2018-03-09 16:35:56 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to open browser with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-03-09 16:35:57 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-03-09 16:35:59 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )
+
+2018-03-09 16:35:59 - [TEST_STEP][FAILED] - setText: Unable to set text 'hwanta' of object 'Object Repository/login/input_managerId' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:35:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:35:59 - [MESSAGE][FAILED] - Unable to set text 'hwanta' of object 'Object Repository/login/input_managerId' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:35:59 - [TEST_STEP][FAILED] - setText: Unable to set text 'xogudgodo!@' of object 'Object Repository/login/input_managerPw' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:35:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:35:59 - [MESSAGE][FAILED] - Unable to set text 'xogudgodo!@' of object 'Object Repository/login/input_managerPw' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:35:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/login/input_btn btn-black' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:35:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:35:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/login/input_btn btn-black' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-03-09 16:35:56 - [TEST_CASE][FAILED] - Test Cases/login: Test Cases/login FAILED because (of) Unable to open browser with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/base" classname="Test Cases/base" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/base/basic info/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-03-09 16:35:59 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/basic info/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/base/basic info/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:36:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/base/basic info/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [TEST_STEP][FAILED] - setText: Unable to set text '테스트 자동화몰' of object 'Object Repository/base/basic info/input_mallNm' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:36:00 - [MESSAGE][FAILED] - Unable to set text '테스트 자동화몰' of object 'Object Repository/base/basic info/input_mallNm' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [TEST_STEP][FAILED] - setText: Unable to set text 'Test Auto eng' of object 'Object Repository/base/basic info/input_mallNmEng' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:36:00 - [MESSAGE][FAILED] - Unable to set text 'Test Auto eng' of object 'Object Repository/base/basic info/input_mallNmEng' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [TEST_STEP][FAILED] - setText: Unable to set text '환타' of object 'Object Repository/base/basic info/input_mallTitle' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:36:00 - [MESSAGE][FAILED] - Unable to set text '환타' of object 'Object Repository/base/basic info/input_mallTitle' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:36:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-03-09 16:35:59 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/basic info/a_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/goods" classname="Test Cases/goods" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-03-09 16:36:00 - [TEST_CASE][FAILED] - Test Cases/goods: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:36:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/goods/registration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 16:36:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 16:36:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goods/registration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-03-09 16:36:00 - [TEST_CASE][FAILED] - Test Cases/goods: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-09 16:35:56 - [TEST_SUITE][FAILED] - admin P1: Test Cases/login FAILED because (of) Unable to open browser with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-out>
+      <system-err><![CDATA[2018-03-09 16:35:56 - [TEST_SUITE][FAILED] - admin P1: Test Cases/login FAILED because (of) Unable to open browser with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php' (Root cause: org.openqa.selenium.SessionNotCreatedException: Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CInternetExplorerDriver
+remote stacktrace: )]]></system-err>
+   </testsuite>
+</testsuites>

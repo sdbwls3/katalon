@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="data" time="2" tests="0" failures="1" errors="0">
+   <testsuite name="data" tests="0" failures="1" errors="0" time="2" timestamp="2018-03-26 16:49:34" hostname="hwanta - tt" id="Test Suites/data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\data\\20180326_164929"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\data\\20180326_164929\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/base" classname="Test Cases/base" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/base/menu_basic' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-03-26 16:49:34 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/menu_basic' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/base/menu_basic' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/base/menu_basic' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [TEST_STEP][FAILED] - acceptAlert: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [TEST_STEP][FAILED] - setText: Unable to set text '자동화' of object 'Object Repository/base/basic info/input_mallNm' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to set text '자동화' of object 'Object Repository/base/basic info/input_mallNm' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [TEST_STEP][FAILED] - setText: Unable to set text 'Test Auto eng' of object 'Object Repository/base/basic info/input_mallNmEng' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to set text 'Test Auto eng' of object 'Object Repository/base/basic info/input_mallNmEng' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [TEST_STEP][FAILED] - setText: Unable to set text '환타' of object 'Object Repository/base/basic info/input_mallTitle' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to set text '환타' of object 'Object Repository/base/basic info/input_mallTitle' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [TEST_STEP][FAILED] - waitForElementNotPresent: Unable to wait for object 'Object Repository/base/basic info/x button' to be not present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/base/basic info/x button' to be not present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'null' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' (Root cause: Actual object 'null' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are not equal)
+
+2018-03-26 16:49:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to get the url of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-26 16:49:36 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'null' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' (Root cause: Actual object 'null' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-03-26 16:49:34 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/menu_basic' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-26 16:49:34 - [TEST_SUITE][FAILED] - data: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/menu_basic' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-03-26 16:49:34 - [TEST_SUITE][FAILED] - data: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/menu_basic' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

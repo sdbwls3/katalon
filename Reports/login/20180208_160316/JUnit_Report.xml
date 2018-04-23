@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="21" tests="2" failures="0" errors="0">
+   <testsuite name="login" tests="2" failures="0" errors="0" time="21" timestamp="2018-02-08 16:03:20" hostname="hwanta - tt" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\login\\20180208_160316"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\login\\20180208_160316\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.77.236.189"/>
+         <property name="sessionId" value="166b6565a5d40830dfbb4d99a20d4be1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-02-08 16:03:20 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-02-08 16:03:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-02-08 16:03:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-02-08 16:03:31 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-02-08 16:03:32 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-02-08 16:03:32 - [TEST_STEP][PASSED] - setText: Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-02-08 16:03:32 - [MESSAGE][PASSED] - Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-02-08 16:03:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/input_btn btn-black' is clicked on
+
+2018-02-08 16:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/login/input_btn btn-black' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/base" classname="Test Cases/base" status="PASSED">
+         <system-out><![CDATA[2018-02-08 16:03:32 - [TEST_CASE][PASSED] - Test Cases/base: Test Cases/base
+
+2018-02-08 16:03:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/a_' is clicked on
+
+2018-02-08 16:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/a_' is clicked on
+
+2018-02-08 16:03:39 - [TEST_STEP][PASSED] - setText: Text '테스트 자동화몰' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-02-08 16:03:40 - [MESSAGE][PASSED] - Text '테스트 자동화몰' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-02-08 16:03:40 - [TEST_STEP][PASSED] - setText: Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-02-08 16:03:40 - [MESSAGE][PASSED] - Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-02-08 16:03:40 - [TEST_STEP][PASSED] - setText: Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-02-08 16:03:40 - [MESSAGE][PASSED] - Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-02-08 16:03:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on
+
+2018-02-08 16:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-08 16:03:20 - [TEST_SUITE][PASSED] - login: Test Cases/base]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

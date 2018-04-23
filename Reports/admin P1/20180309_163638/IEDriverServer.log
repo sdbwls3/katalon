@@ -1,0 +1,137 @@
+I 2018-03-09 16:36:42:720 server.cc(86) Starting WebDriver server on port: '24374' on host: ''
+T 2018-03-09 16:36:42:720 server.cc(634) Entering Server::PopulateCommandRepository
+T 2018-03-09 16:36:42:721 IEServer.cpp(32) Entering IEServer::IEServer
+I 2018-03-09 16:36:42:721 IEServer.cpp(33) Driver version: 3.6.0.0 (32-bit)
+T 2018-03-09 16:36:42:721 server.cc(121) Entering Server::Start
+D 2018-03-09 16:36:42:721 server.cc(148) Civetweb ACL is -0.0.0.0/0,+127.0.0.1
+T 2018-03-09 16:36:43:243 server.cc(174) Entering Server::ProcessRequest
+T 2018-03-09 16:36:43:244 server.cc(183) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2018-03-09 16:36:43:244 server.cc(272) Entering Server::DispatchCommand
+T 2018-03-09 16:36:43:244 server.cc(583) Entering Server::LookupCommand
+D 2018-03-09 16:36:43:244 server.cc(281) Command: GET /status {}
+T 2018-03-09 16:36:43:244 IEServer.cpp(51) Entering IEServer::GetStatus
+T 2018-03-09 16:36:43:244 response.cc(72) Entering Response::SetSuccessResponse
+T 2018-03-09 16:36:43:244 response.cc(78) Entering Response::SetResponse
+T 2018-03-09 16:36:43:244 response.cc(51) Entering Response::Serialize
+D 2018-03-09 16:36:43:244 server.cc(338) Response: {"value":{"build":{"version":"3.6.0.0 (32-bit)"},"message":"Ready to create session","os":{"arch":"x64","name":"windows","version":"6.1.7601.18015 (win7sp1_gdr.121129-1432)"},"ready":true}}
+
+T 2018-03-09 16:36:43:244 server.cc(391) Entering Server::SendResponseToClient
+T 2018-03-09 16:36:43:244 response.cc(30) Entering Response::Deserialize
+T 2018-03-09 16:36:43:244 server.cc(445) Entering Server::SendHttpOk
+T 2018-03-09 16:36:43:407 server.cc(174) Entering Server::ProcessRequest
+T 2018-03-09 16:36:43:408 server.cc(238) Entering Server::ReadRequestBody
+T 2018-03-09 16:36:43:408 server.cc(183) Process request with: URI: /session HTTP verb: POST
+body: {
+  "desiredCapabilities": {"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true"}},
+  "capabilities": {
+    "desiredCapabilities": {"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true"}},
+    "firstMatch": [
+      {"browserName":"internet explorer","platformName":"windows","se:ieOptions":{"ie.usePerProcessProxy":"true"}}
+    ]
+  }
+}
+T 2018-03-09 16:36:43:408 server.cc(272) Entering Server::DispatchCommand
+T 2018-03-09 16:36:43:408 server.cc(583) Entering Server::LookupCommand
+D 2018-03-09 16:36:43:408 server.cc(281) Command: POST /session {
+  "desiredCapabilities": {"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true"}},
+  "capabilities": {
+    "desiredCapabilities": {"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true"}},
+    "firstMatch": [
+      {"browserName":"internet explorer","platformName":"windows","se:ieOptions":{"ie.usePerProcessProxy":"true"}}
+    ]
+  }
+}
+T 2018-03-09 16:36:43:408 IEServer.cpp(42) Entering IEServer::InitializeSession
+T 2018-03-09 16:36:43:408 IESession.cpp(38) Entering IESession::Initialize
+D 2018-03-09 16:36:43:408 IESession.cpp(53) Mutex acquired for session initalization
+T 2018-03-09 16:36:43:408 IECommandExecutor.cpp(386) Entering IECommandExecutor::ThreadProc
+T 2018-03-09 16:36:43:413 IECommandExecutor.cpp(47) Entering IECommandExecutor::OnCreate
+T 2018-03-09 16:36:43:413 IECommandExecutor.cpp(753) Entering IECommandExecutor::PopulateElementFinderMethods
+T 2018-03-09 16:36:43:413 InputManager.cpp(40) Entering InputManager::InputManager
+T 2018-03-09 16:36:43:413 InputManager.cpp(75) Entering InputManager::Initialize
+T 2018-03-09 16:36:43:414 BrowserFactory.cpp(998) Entering BrowserFactory::GetExecutableLocation
+T 2018-03-09 16:36:43:414 BrowserFactory.cpp(1039) Entering BrowserFactory::GetIEVersion
+T 2018-03-09 16:36:43:416 CommandHandlerRepository.cpp(108) Entering CommandHandlerRepository::PopulateCommandHandlers
+T 2018-03-09 16:36:43:416 IESession.cpp(99) Created thread for command executor returns HWND: '001B1690'
+T 2018-03-09 16:36:43:416 IESession.cpp(103) Session id is retrived from command executor window: 'f51c77a9-d382-4cc1-9f84-8919e2b21a1a'
+D 2018-03-09 16:36:43:416 IESession.cpp(109) Releasing session initialization mutex
+T 2018-03-09 16:36:43:416 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2018-03-09 16:36:43:416 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2018-03-09 16:36:43:417 command.cc(31) Entering Command::Deserialize
+D 2018-03-09 16:36:43:417 command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true"}},
+  "capabilities": {
+    "desiredCapabilities": {"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true"}},
+    "firstMatch": [
+      {"browserName":"internet explorer","platformName":"windows","se:ieOptions":{"ie.usePerProcessProxy":"true"}}
+    ]
+  }
+} }
+T 2018-03-09 16:36:43:417 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2018-03-09 16:36:43:417 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2018-03-09 16:36:43:417 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+D 2018-03-09 16:36:43:417 CommandHandlers\NewSessionCommandHandler.cpp(46) Found W3C capabilities structure
+D 2018-03-09 16:36:43:417 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2018-03-09 16:36:43:417 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2018-03-09 16:36:43:417 CommandHandlers\NewSessionCommandHandler.cpp(535) Found browserNamecapability. Validating value type is string.
+D 2018-03-09 16:36:43:417 CommandHandlers\NewSessionCommandHandler.cpp(564) Found platformNamecapability. Validating value type is string.
+D 2018-03-09 16:36:43:417 CommandHandlers\NewSessionCommandHandler.cpp(794) Found proxycapability. Validating value type is object.
+T 2018-03-09 16:36:43:417 BrowserFactory.cpp(113) Entering BrowserFactory::Initialize
+T 2018-03-09 16:36:43:417 IECommandExecutor.cpp(631) Entering IECommandExecutor::CreateNewBrowser
+T 2018-03-09 16:36:43:417 BrowserFactory.cpp(142) Entering BrowserFactory::LaunchBrowserProcess
+D 2018-03-09 16:36:43:417 BrowserFactory.cpp(146) Ignoring Protected Mode Settings: 0
+D 2018-03-09 16:36:43:417 BrowserFactory.cpp(149) Checking validity of Protected Mode settings.
+T 2018-03-09 16:36:43:417 BrowserFactory.cpp(1058) Entering BrowserFactory::ProtectedModeSettingsAreValid
+D 2018-03-09 16:36:43:417 BrowserFactory.cpp(1061) Detected IE version: 11, Windows version supports Protected Mode: 1
+T 2018-03-09 16:36:43:417 BrowserFactory.cpp(1135) Entering BrowserFactory::GetZoneProtectedModeSetting
+D 2018-03-09 16:36:43:417 BrowserFactory.cpp(1152) Found Protected Mode setting value of 3 for zone 1
+T 2018-03-09 16:36:43:418 BrowserFactory.cpp(1135) Entering BrowserFactory::GetZoneProtectedModeSetting
+D 2018-03-09 16:36:43:418 BrowserFactory.cpp(1152) Found Protected Mode setting value of 3 for zone 2
+T 2018-03-09 16:36:43:418 BrowserFactory.cpp(1135) Entering BrowserFactory::GetZoneProtectedModeSetting
+D 2018-03-09 16:36:43:418 BrowserFactory.cpp(1152) Found Protected Mode setting value of 0 for zone 3
+D 2018-03-09 16:36:43:418 BrowserFactory.cpp(152) Has Valid Protected Mode Settings: 0
+W 2018-03-09 16:36:43:418 IECommandExecutor.cpp(635) Unable to launch browser, received NULL process ID
+T 2018-03-09 16:36:43:418 response.cc(85) Entering Response::SetErrorResponse
+T 2018-03-09 16:36:43:418 response.cc(78) Entering Response::SetResponse
+T 2018-03-09 16:36:43:418 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-03-09 16:36:43:418 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-03-09 16:36:43:418 IECommandExecutor.cpp(586) Current command executor is not valid
+W 2018-03-09 16:36:43:418 IECommandExecutor.cpp(520) Unable to get current browser
+T 2018-03-09 16:36:43:418 response.cc(51) Entering Response::Serialize
+T 2018-03-09 16:36:43:427 IESession.cpp(221) Found non-zero response length
+T 2018-03-09 16:36:43:427 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2018-03-09 16:36:43:427 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+T 2018-03-09 16:36:43:427 response.cc(30) Entering Response::Deserialize
+T 2018-03-09 16:36:43:427 server.cc(225) Entering Server::ShutDownSession
+T 2018-03-09 16:36:43:427 IESession.cpp(119) Entering IESession::ShutDown
+T 2018-03-09 16:36:43:427 IESession.cpp(173) Entering IESession::WaitForCommandExecutorExit
+D 2018-03-09 16:36:43:427 IESession.cpp(150) Executor shutdown successful!
+D 2018-03-09 16:36:43:427 IESession.cpp(158) Posting thread shutdown message
+D 2018-03-09 16:36:43:427 IESession.cpp(161) Starting wait for thread completion
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(436) Shutdown message received
+D 2018-03-09 16:36:43:427 IESession.cpp(164) Waiting for thread to end returned 4294967295
+D 2018-03-09 16:36:43:427 server.cc(338) Response: {"value":{"data":null,"error":"session not created","message":"Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.","stacktrace":""}}
+
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(97) Entering IECommandExecutor::OnDestroy
+T 2018-03-09 16:36:43:427 server.cc(391) Entering Server::SendResponseToClient
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(99) Clearing managed element cache
+T 2018-03-09 16:36:43:427 response.cc(30) Entering Response::Deserialize
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(102) Closing command handler repository
+T 2018-03-09 16:36:43:427 server.cc(485) Entering Server::SendHttpInternalError
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(104) Closing element finder
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(106) Closing input manager
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(108) Closing proxy manager
+T 2018-03-09 16:36:43:427 ProxyManager.cpp(185) ProxyManager::RestoreProxySettings
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(110) Closing browser factory
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(112) Posting quit message
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(114) Leaving IECommandExecutor::OnDestroy
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(438) Returned from DestroyWindow()
+D 2018-03-09 16:36:43:427 IECommandExecutor.cpp(447) Exited IECommandExecutor thread message loop
+T 2018-03-09 16:36:44:560 server.cc(174) Entering Server::ProcessRequest
+T 2018-03-09 16:36:44:560 server.cc(183) Process request with: URI: /shutdown HTTP verb: GET
+body: {}
+T 2018-03-09 16:36:44:560 server.cc(445) Entering Server::SendHttpOk
+T 2018-03-09 16:36:44:560 IEServer.cpp(88) Entering IEServer::ShutDown
+T 2018-03-09 16:36:44:560 WebDriver.cpp(54) Entering StopServer
+T 2018-03-09 16:36:44:560 server.cc(165) Entering Server::Stop

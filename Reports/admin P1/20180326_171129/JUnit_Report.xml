@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="admin P1" time="32" tests="2" failures="1" errors="0">
+   <testsuite name="admin P1" tests="2" failures="1" errors="0" time="32" timestamp="2018-03-26 17:11:30" hostname="hwanta - tt" id="Test Suites/admin P1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_171129"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_171129\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_171129\\1522051913483.png, C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_171129\\1522051914193.png"/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="9830f81dae1df2348218b68453eda2d4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-03-26 17:11:31 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-03-26 17:11:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-26 17:11:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-26 17:11:44 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-26 17:11:44 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-26 17:11:44 - [TEST_STEP][PASSED] - setText: Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-26 17:11:44 - [MESSAGE][PASSED] - Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-26 17:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/input_btn btn-black' is clicked on
+
+2018-03-26 17:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/login/input_btn btn-black' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/base" classname="Test Cases/base" status="FAILED">
+         <failure type="FAILED" message="No alert found"/>
+         <system-out><![CDATA[2018-03-26 17:11:44 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) No alert found
+
+2018-03-26 17:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/menu_basic' is clicked on
+
+2018-03-26 17:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/base/menu_basic' is clicked on
+
+2018-03-26 17:11:53 - [TEST_STEP][FAILED] - acceptAlert: No alert found
+
+2018-03-26 17:11:54 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_171129\\1522051913483.png]]
+
+2018-03-26 17:11:54 - [TEST_STEP][FAILED] - acceptAlert: No alert found
+
+2018-03-26 17:11:54 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_171129\\1522051914193.png]]
+
+2018-03-26 17:11:54 - [TEST_STEP][PASSED] - Statement - For (def index : (0..-1)): null
+
+2018-03-26 17:11:54 - [TEST_STEP][PASSED] - setText: Text '자동화' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-26 17:11:54 - [MESSAGE][PASSED] - Text '자동화' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-26 17:11:54 - [TEST_STEP][PASSED] - setText: Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-26 17:11:54 - [MESSAGE][PASSED] - Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-26 17:11:54 - [TEST_STEP][PASSED] - setText: Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-26 17:11:54 - [MESSAGE][PASSED] - Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-26 17:11:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on
+
+2018-03-26 17:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on
+
+2018-03-26 17:11:55 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/base/basic info/x button' located by 'By.xpath: //button[(text() = '×' or . = '×')]' is not present after '5' second(s)
+
+2018-03-26 17:11:59 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/base/basic info/x button' located by 'By.xpath: //button[(text() = '×' or . = '×')]' is not present after '5' second(s)
+
+2018-03-26 17:11:59 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are equal
+
+2018-03-26 17:11:59 - [MESSAGE][PASSED] - Current window's url is: 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php'
+
+2018-03-26 17:11:59 - [MESSAGE][PASSED] - Actual object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are equal]]></system-out>
+         <system-err><![CDATA[2018-03-26 17:11:44 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) No alert found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/goods" classname="Test Cases/goods" status="PASSED">
+         <system-out><![CDATA[2018-03-26 17:11:59 - [TEST_CASE][PASSED] - Test Cases/goods: Test Cases/goods
+
+2018-03-26 17:11:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/goods/menu_goods' is clicked on
+
+2018-03-26 17:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/goods/menu_goods' is clicked on
+
+2018-03-26 17:12:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/goods/good list/registration' is clicked on
+
+2018-03-26 17:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/goods/good list/registration' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-26 17:11:30 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) No alert found]]></system-out>
+      <system-err><![CDATA[2018-03-26 17:11:30 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) No alert found]]></system-err>
+   </testsuite>
+</testsuites>

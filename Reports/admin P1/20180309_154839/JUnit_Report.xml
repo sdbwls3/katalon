@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="admin P1" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="admin P1" tests="0" failures="1" errors="0" time="1" timestamp="2018-03-09 15:48:42" hostname="hwanta - tt" id="Test Suites/admin P1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_154839"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_154839\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/goods" classname="Test Cases/goods" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-03-09 15:48:43 - [TEST_CASE][FAILED] - Test Cases/goods: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 15:48:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 15:48:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 15:48:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 15:48:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/goods/registration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-09 15:48:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-09 15:48:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goods/registration' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-03-09 15:48:43 - [TEST_CASE][FAILED] - Test Cases/goods: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-09 15:48:42 - [TEST_SUITE][FAILED] - admin P1: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-03-09 15:48:42 - [TEST_SUITE][FAILED] - admin P1: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/goods_menu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+admin P1,,,2018-03-09 16:34:37,2018-03-09 16:34:39,1.419s,FAILED
+,,,,,,
+Test Cases/goods,,,2018-03-09 16:34:38,2018-03-09 16:34:39,0.941s,FAILED
+click,,,2018-03-09 16:34:38,2018-03-09 16:34:39,0.603s,FAILED
+click,,,2018-03-09 16:34:39,2018-03-09 16:34:39,0.008s,FAILED

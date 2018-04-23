@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="admin P1" time="26" tests="2" failures="1" errors="0">
+   <testsuite name="admin P1" tests="2" failures="1" errors="0" time="26" timestamp="2018-03-09 16:57:17" hostname="hwanta - tt" id="Test Suites/admin P1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714\\1520582258147.png, C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714\\1520582259145.png, C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714\\1520582259468.png"/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0e18e2789219b0f3444b682c219f97e5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-03-09 16:57:18 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-03-09 16:57:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-09 16:57:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-09 16:57:28 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-09 16:57:29 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-09 16:57:29 - [TEST_STEP][PASSED] - setText: Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-09 16:57:29 - [MESSAGE][PASSED] - Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-09 16:57:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/input_btn btn-black' is clicked on
+
+2018-03-09 16:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/login/input_btn btn-black' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/base" classname="Test Cases/base" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-03-09 16:57:29 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-09 16:57:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/menu_basic' is clicked on
+
+2018-03-09 16:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/menu_basic' is clicked on
+
+2018-03-09 16:57:36 - [TEST_STEP][PASSED] - setText: Text '테스트 자동화몰' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-09 16:57:36 - [MESSAGE][PASSED] - Text '테스트 자동화몰' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-09 16:57:36 - [TEST_STEP][PASSED] - setText: Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-09 16:57:37 - [MESSAGE][PASSED] - Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-09 16:57:37 - [TEST_STEP][PASSED] - setText: Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-09 16:57:37 - [MESSAGE][PASSED] - Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-09 16:57:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on
+
+2018-03-09 16:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on
+
+2018-03-09 16:57:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/x button' is clicked on
+
+2018-03-09 16:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/x button' is clicked on
+
+2018-03-09 16:57:38 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-09 16:57:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/New Folder/Page_     - 5/goods' does not exist
+
+2018-03-09 16:57:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-03-09 16:57:39 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714\\1520582258147.png]]
+
+2018-03-09 16:57:39 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-09 16:57:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/New Folder/Page_     - 5/member' does not exist
+
+2018-03-09 16:57:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-03-09 16:57:39 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714\\1520582259145.png]]
+
+2018-03-09 16:57:39 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-03-09 16:57:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/New Folder/Page_     - 5/order' does not exist
+
+2018-03-09 16:57:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-03-09 16:57:39 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180309_165714\\1520582259468.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-09 16:57:29 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/goods" classname="Test Cases/goods" status="PASSED">
+         <system-out><![CDATA[2018-03-09 16:57:39 - [TEST_CASE][PASSED] - Test Cases/goods: Test Cases/goods
+
+2018-03-09 16:57:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/goods/menu_goods' is clicked on
+
+2018-03-09 16:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/goods/menu_goods' is clicked on
+
+2018-03-09 16:57:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/goods/registration' is clicked on
+
+2018-03-09 16:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/goods/registration' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-09 16:57:17 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-03-09 16:57:17 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

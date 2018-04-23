@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="admin P1" time="25" tests="1" failures="1" errors="0">
+   <testsuite name="admin P1" tests="1" failures="1" errors="0" time="25" timestamp="2018-03-27 14:27:17" hostname="hwanta - tt" id="Test Suites/admin P1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180327_142714"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180327_142714\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180327_142714\\1522128461130.png"/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a4f4b62d30c2cb759854a31c8b28e28d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-03-27 14:27:17 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-03-27 14:27:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-27 14:27:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-27 14:27:27 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-27 14:27:27 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-27 14:27:27 - [TEST_STEP][PASSED] - setText: Text 'ewqr213213@#' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-27 14:27:27 - [MESSAGE][PASSED] - Text 'ewqr213213@#' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-27 14:27:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/input_btn btn-black' is clicked on
+
+2018-03-27 14:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login/input_btn btn-black' is clicked on
+
+2018-03-27 14:27:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-27 14:27:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-27 14:27:30 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-27 14:27:30 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-27 14:27:30 - [TEST_STEP][PASSED] - setText: Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-27 14:27:30 - [MESSAGE][PASSED] - Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-27 14:27:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/input_btn btn-black' is clicked on
+
+2018-03-27 14:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/login/input_btn btn-black' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/base" classname="Test Cases/base" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1135, 28)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a4f4b62d30c2cb759854a31c8b28e28d)"/>
+         <system-out><![CDATA[2018-03-27 14:27:30 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1135, 28)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a4f4b62d30c2cb759854a31c8b28e28d)
+
+2018-03-27 14:27:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/menu_basic' is clicked on
+
+2018-03-27 14:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/base/menu_basic' is clicked on
+
+2018-03-27 14:27:37 - [TEST_STEP][PASSED] - setText: Text '자동화' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-27 14:27:38 - [MESSAGE][PASSED] - Text '자동화' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-27 14:27:38 - [TEST_STEP][PASSED] - setText: Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-27 14:27:38 - [MESSAGE][PASSED] - Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-27 14:27:38 - [TEST_STEP][PASSED] - setText: Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-27 14:27:38 - [MESSAGE][PASSED] - Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-27 14:27:38 - [TEST_STEP][PASSED] - setText: Text '회사 상호 자동화' is set on object 'Object Repository/base/basic info/input_companyNm'
+
+2018-03-27 14:27:38 - [MESSAGE][PASSED] - Text '회사 상호 자동화' is set on object 'Object Repository/base/basic info/input_companyNm'
+
+2018-03-27 14:27:38 - [TEST_STEP][PASSED] - setText: Text '519' is set on object 'Object Repository/base/basic info/input_businessNo'
+
+2018-03-27 14:27:38 - [MESSAGE][PASSED] - Text '519' is set on object 'Object Repository/base/basic info/input_businessNo'
+
+2018-03-27 14:27:38 - [TEST_STEP][PASSED] - setText: Text '대표이름' is set on object 'Object Repository/base/basic info/input_ceoNm'
+
+2018-03-27 14:27:39 - [MESSAGE][PASSED] - Text '대표이름' is set on object 'Object Repository/base/basic info/input_ceoNm'
+
+2018-03-27 14:27:39 - [TEST_STEP][PASSED] - setText: Text '전자상거래' is set on object 'Object Repository/base/basic info/input_service'
+
+2018-03-27 14:27:39 - [MESSAGE][PASSED] - Text '전자상거래' is set on object 'Object Repository/base/basic info/input_service'
+
+2018-03-27 14:27:39 - [TEST_STEP][PASSED] - setText: Text '의류' is set on object 'Object Repository/base/basic info/input_item'
+
+2018-03-27 14:27:39 - [MESSAGE][PASSED] - Text '의류' is set on object 'Object Repository/base/basic info/input_item'
+
+2018-03-27 14:27:39 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/base/basic info/input_email'
+
+2018-03-27 14:27:39 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/base/basic info/input_email'
+
+2018-03-27 14:27:39 - [TEST_STEP][PASSED] - setText: Text 'godo.co.kr' is set on object 'Object Repository/base/basic info/input_email2'
+
+2018-03-27 14:27:40 - [MESSAGE][PASSED] - Text 'godo.co.kr' is set on object 'Object Repository/base/basic info/input_email2'
+
+2018-03-27 14:27:40 - [TEST_STEP][PASSED] - setText: Text '코오롱빌란트 1차' is set on object 'Object Repository/base/basic info/input_addressSub'
+
+2018-03-27 14:27:40 - [MESSAGE][PASSED] - Text '코오롱빌란트 1차' is set on object 'Object Repository/base/basic info/input_addressSub'
+
+2018-03-27 14:27:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/input_returnFl( )' is clicked on
+
+2018-03-27 14:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/input_returnFl( )' is clicked on
+
+2018-03-27 14:27:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/input_returnFl( ) (1)' is clicked on
+
+2018-03-27 14:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/input_returnFl( ) (1)' is clicked on
+
+2018-03-27 14:27:40 - [TEST_STEP][PASSED] - setText: Text '0200000000' is set on object 'Object Repository/base/basic info/input_phone'
+
+2018-03-27 14:27:40 - [MESSAGE][PASSED] - Text '0200000000' is set on object 'Object Repository/base/basic info/input_phone'
+
+2018-03-27 14:27:40 - [TEST_STEP][PASSED] - setText: Text '0200001111' is set on object 'Object Repository/base/basic info/input_fax'
+
+2018-03-27 14:27:40 - [MESSAGE][PASSED] - Text '0200001111' is set on object 'Object Repository/base/basic info/input_fax'
+
+2018-03-27 14:27:40 - [TEST_STEP][PASSED] - setText: Text '2018' is set on object 'Object Repository/base/basic info/input_onlineOrderSerial'
+
+2018-03-27 14:27:40 - [MESSAGE][PASSED] - Text '2018' is set on object 'Object Repository/base/basic info/input_onlineOrderSerial'
+
+2018-03-27 14:27:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1135, 28)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a4f4b62d30c2cb759854a31c8b28e28d)
+
+2018-03-27 14:27:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1135, 28)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a4f4b62d30c2cb759854a31c8b28e28d)
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180327_142714\\1522128461130.png]]
+
+2018-03-27 14:27:41 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/base/basic info/x button' located by 'By.xpath: //button[(text() = '×' or . = '×')]' is not present after '5' second(s)
+
+2018-03-27 14:27:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/base/basic info/x button' located by 'By.xpath: //button[(text() = '×' or . = '×')]' is not present after '5' second(s)
+
+2018-03-27 14:27:41 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are equal
+
+2018-03-27 14:27:41 - [MESSAGE][PASSED] - Current window's url is: 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php'
+
+2018-03-27 14:27:41 - [MESSAGE][PASSED] - Actual object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are equal]]></system-out>
+         <system-err><![CDATA[2018-03-27 14:27:30 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1135, 28)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a4f4b62d30c2cb759854a31c8b28e28d)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-27 14:27:17 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1135, 28)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a4f4b62d30c2cb759854a31c8b28e28d)]]></system-out>
+      <system-err><![CDATA[2018-03-27 14:27:17 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) Unable to click on object 'Object Repository/base/basic info/input_btn btn-red_save' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1135, 28)
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a4f4b62d30c2cb759854a31c8b28e28d)]]></system-err>
+   </testsuite>
+</testsuites>

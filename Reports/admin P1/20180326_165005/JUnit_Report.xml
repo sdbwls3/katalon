@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="admin P1" time="28" tests="1" failures="2" errors="0">
+   <testsuite name="admin P1" tests="1" failures="2" errors="0" time="28" timestamp="2018-03-26 16:50:07" hostname="hwanta - tt" id="Test Suites/admin P1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005"/>
+         <property name="logFiles" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005\\1522050632077.png, C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005\\1522050634519.png, C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005\\1522050634863.png"/>
+         <property name="hostName" value="hwanta - tt"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="121a5222bb2d3a0d4175602b95437e9a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-03-26 16:50:07 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-03-26 16:50:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-26 16:50:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://gdadmin.hwanta71.godomall.com/base/login.php'
+
+2018-03-26 16:50:22 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-26 16:50:23 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/login/input_managerId'
+
+2018-03-26 16:50:23 - [TEST_STEP][PASSED] - setText: Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-26 16:50:23 - [MESSAGE][PASSED] - Text 'xogudgodo!@' is set on object 'Object Repository/login/input_managerPw'
+
+2018-03-26 16:50:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/input_btn btn-black' is clicked on
+
+2018-03-26 16:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login/input_btn btn-black' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/base" classname="Test Cases/base" status="FAILED">
+         <failure type="FAILED" message="No alert found"/>
+         <system-out><![CDATA[2018-03-26 16:50:23 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) No alert found
+
+2018-03-26 16:50:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/menu_basic' is clicked on
+
+2018-03-26 16:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/base/menu_basic' is clicked on
+
+2018-03-26 16:50:31 - [TEST_STEP][FAILED] - acceptAlert: No alert found
+
+2018-03-26 16:50:32 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005\\1522050632077.png]]
+
+2018-03-26 16:50:32 - [TEST_STEP][PASSED] - setText: Text '자동화' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-26 16:50:33 - [MESSAGE][PASSED] - Text '자동화' is set on object 'Object Repository/base/basic info/input_mallNm'
+
+2018-03-26 16:50:33 - [TEST_STEP][PASSED] - setText: Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-26 16:50:33 - [MESSAGE][PASSED] - Text 'Test Auto eng' is set on object 'Object Repository/base/basic info/input_mallNmEng'
+
+2018-03-26 16:50:33 - [TEST_STEP][PASSED] - setText: Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-26 16:50:33 - [MESSAGE][PASSED] - Text '환타' is set on object 'Object Repository/base/basic info/input_mallTitle'
+
+2018-03-26 16:50:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on
+
+2018-03-26 16:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/base/basic info/input_btn btn-red_save' is clicked on
+
+2018-03-26 16:50:34 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/base/basic info/x button' located by 'By.xpath: //button[(text() = '×' or . = '×')]' is not present after '5' second(s)
+
+2018-03-26 16:50:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/base/basic info/x button' located by 'By.xpath: //button[(text() = '×' or . = '×')]' is not present after '5' second(s)
+
+2018-03-26 16:50:34 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are equal
+
+2018-03-26 16:50:34 - [MESSAGE][PASSED] - Current window's url is: 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php'
+
+2018-03-26 16:50:34 - [MESSAGE][PASSED] - Actual object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' and expected object 'http://gdadmin.hwanta71.godomall.com/policy/base_info.php' are equal]]></system-out>
+         <system-err><![CDATA[2018-03-26 16:50:23 - [TEST_CASE][FAILED] - Test Cases/base: Test Cases/base FAILED because (of) No alert found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/goods" classname="Test Cases/goods" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/goods/menu_goods' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 121a5222bb2d3a0d4175602b95437e9a)"/>
+         <system-out><![CDATA[2018-03-26 16:50:34 - [TEST_CASE][FAILED] - Test Cases/goods: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/menu_goods' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 121a5222bb2d3a0d4175602b95437e9a)
+
+2018-03-26 16:50:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/goods/menu_goods' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 121a5222bb2d3a0d4175602b95437e9a)
+
+2018-03-26 16:50:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goods/menu_goods' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 121a5222bb2d3a0d4175602b95437e9a)
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005\\1522050634519.png]]
+
+2018-03-26 16:50:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/goods/good list/registration' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="button" onclick="mall_categoty();" value="대표카테고리 선택" class="btn btn-gray btn-sm"> is not clickable at point (267, 641). Other element would receive the click: <div class="modal bootstrap-dialog type-primary fade size-normal in" role="dialog" aria-hidden="true" id="3ec7175f-1306-458c-a2d5-308ddbdb96a7" aria-labelledby="3ec7175f-1306-458c-a2d5-308ddbdb96a7_title" tabindex="-1" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 121a5222bb2d3a0d4175602b95437e9a)
+
+2018-03-26 16:50:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/goods/good list/registration' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="button" onclick="mall_categoty();" value="대표카테고리 선택" class="btn btn-gray btn-sm"> is not clickable at point (267, 641). Other element would receive the click: <div class="modal bootstrap-dialog type-primary fade size-normal in" role="dialog" aria-hidden="true" id="3ec7175f-1306-458c-a2d5-308ddbdb96a7" aria-labelledby="3ec7175f-1306-458c-a2d5-308ddbdb96a7_title" tabindex="-1" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 121a5222bb2d3a0d4175602b95437e9a)
+[[ATTACHMENT|C:\\Users\\hwanta\\Katalon Studio\\admin\\Reports\\admin P1\\20180326_165005\\1522050634863.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 16:50:34 - [TEST_CASE][FAILED] - Test Cases/goods: Test Cases/goods FAILED because (of) Unable to click on object 'Object Repository/goods/menu_goods' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TT', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\hwanta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 121a5222bb2d3a0d4175602b95437e9a)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-26 16:50:07 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) No alert found]]></system-out>
+      <system-err><![CDATA[2018-03-26 16:50:07 - [TEST_SUITE][FAILED] - admin P1: Test Cases/base FAILED because (of) No alert found]]></system-err>
+   </testsuite>
+</testsuites>

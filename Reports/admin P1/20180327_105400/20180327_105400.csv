@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+admin P1,Chrome 65.0.3325.181,,2018-03-27 10:54:04,2018-03-27 10:54:22,18.330s,PASSED
+,,,,,,
+Test Cases/login,Chrome 65.0.3325.181,,2018-03-27 10:54:04,2018-03-27 10:54:21,16.851s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-27 10:54:05,2018-03-27 10:54:16,11.047s,PASSED
+Statement - For (def index : (0..3)),Chrome 65.0.3325.181,,2018-03-27 10:54:16,2018-03-27 10:54:17,1.185s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-27 10:54:17,2018-03-27 10:54:17,0.186s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-03-27 10:54:17,2018-03-27 10:54:21,4.110s,PASSED
