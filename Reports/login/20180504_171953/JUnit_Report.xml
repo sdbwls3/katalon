@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="1" tests="0" failures="2" errors="0">
+   <testsuite name="login" tests="0" failures="2" errors="0" time="1" timestamp="2018-05-04 17:19:54" hostname="hwanta - DESKTOP-0ALRP70" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\godo\\Katalon Studio\\front\\Reports\\login\\20180504_171953"/>
+         <property name="logFiles" value="C:\\Users\\godo\\Katalon Studio\\front\\Reports\\login\\20180504_171953\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hwanta - DESKTOP-0ALRP70"/>
+         <property name="hostAddress" value="10.77.236.189"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/login/login_invalid_logout" classname="Test Cases/login/login_invalid_logout" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'g5stdhwanta7.godomall.com' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-04 17:19:55 - [TEST_CASE][FAILED] - Test Cases/login/login_invalid_logout: Test Cases/login/login_invalid_logout FAILED because (of) Unable to open browser with url: 'g5stdhwanta7.godomall.com' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-04 17:19:55 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'g5stdhwanta7.godomall.com' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-04 17:19:55 - [MESSAGE][FAILED] - Unable to open browser with url: 'g5stdhwanta7.godomall.com' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-04 17:19:55 - [TEST_CASE][FAILED] - Test Cases/login/login_invalid_logout: Test Cases/login/login_invalid_logout FAILED because (of) Unable to open browser with url: 'g5stdhwanta7.godomall.com' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login_Password search" classname="Test Cases/login/login_Password search" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'g5stdhwanta7.godomall.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-04 17:19:55 - [TEST_CASE][FAILED] - Test Cases/login/login_Password search: Test Cases/login/login_Password search FAILED because (of) Unable to navigate to 'g5stdhwanta7.godomall.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-04 17:19:56 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'g5stdhwanta7.godomall.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-04 17:19:56 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-04 17:19:56 - [MESSAGE][FAILED] - Unable to navigate to 'g5stdhwanta7.godomall.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-05-04 17:19:55 - [TEST_CASE][FAILED] - Test Cases/login/login_Password search: Test Cases/login/login_Password search FAILED because (of) Unable to navigate to 'g5stdhwanta7.godomall.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-04 17:19:54 - [TEST_SUITE][FAILED] - login: Test Cases/login/login_invalid_logout FAILED because (of) Unable to open browser with url: 'g5stdhwanta7.godomall.com' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-05-04 17:19:54 - [TEST_SUITE][FAILED] - login: Test Cases/login/login_invalid_logout FAILED because (of) Unable to open browser with url: 'g5stdhwanta7.godomall.com' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0ALRP70', ip: '10.77.236.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

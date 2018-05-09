@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+login,,,2018-05-04 16:55:57,2018-05-04 16:55:59,1.933s,FAILED
+,,,,,,
+Test Cases/login/login_invalid_logout,,,2018-05-04 16:55:57,2018-05-04 16:55:58,0.981s,FAILED
+openBrowser,,,2018-05-04 16:55:57,2018-05-04 16:55:58,0.612s,FAILED
+,,,,,,
+Test Cases/login/login_ID search,,,2018-05-04 16:55:58,2018-05-04 16:55:58,0.298s,FAILED
+navigateToUrl,,,2018-05-04 16:55:58,2018-05-04 16:55:58,0.025s,FAILED
+,,,,,,
+Test Cases/login/login_Password search,,,2018-05-04 16:55:58,2018-05-04 16:55:58,0.289s,FAILED
+navigateToUrl,,,2018-05-04 16:55:58,2018-05-04 16:55:58,0.000s,FAILED

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="26" tests="2" failures="0" errors="0">
+   <testsuite name="login" tests="2" failures="0" errors="0" time="26" timestamp="2018-05-04 17:23:07" hostname="hwanta - DESKTOP-0ALRP70" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\godo\\Katalon Studio\\front\\Reports\\login\\20180504_172305"/>
+         <property name="logFiles" value="C:\\Users\\godo\\Katalon Studio\\front\\Reports\\login\\20180504_172305\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hwanta - DESKTOP-0ALRP70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.77.236.189"/>
+         <property name="sessionId" value="625317500a7544f49852e4116f08835e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_invalid_logout" classname="Test Cases/login/login_invalid_logout" status="PASSED">
+         <system-out><![CDATA[2018-05-04 17:23:07 - [TEST_CASE][PASSED] - Test Cases/login/login_invalid_logout: Test Cases/login/login_invalid_logout
+
+2018-05-04 17:23:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'g5stdhwanta7.godomall.com'
+
+2018-05-04 17:23:15 - [MESSAGE][PASSED] - Browser is opened with url: 'g5stdhwanta7.godomall.com'
+
+2018-05-04 17:23:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 17:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 17:23:16 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/Page/login/Page login/input_loginId'
+
+2018-05-04 17:23:16 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/Page/login/Page login/input_loginId'
+
+2018-05-04 17:23:16 - [TEST_STEP][PASSED] - setText: Text '7894561231' is set on object 'Object Repository/Page/login/Page login/input_loginPwd'
+
+2018-05-04 17:23:16 - [MESSAGE][PASSED] - Text '7894561231' is set on object 'Object Repository/Page/login/Page login/input_loginPwd'
+
+2018-05-04 17:23:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/Page login/button_login' is clicked on
+
+2018-05-04 17:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/Page login/button_login' is clicked on
+
+2018-05-04 17:23:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-04 17:23:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-04 17:23:18 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-04 17:23:18 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-04 17:23:18 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/Page/login/Page login/input_loginId'
+
+2018-05-04 17:23:19 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/Page/login/Page login/input_loginId'
+
+2018-05-04 17:23:19 - [TEST_STEP][PASSED] - setText: Text '789456123w' is set on object 'Object Repository/Page/login/Page login/input_loginPwd'
+
+2018-05-04 17:23:19 - [MESSAGE][PASSED] - Text '789456123w' is set on object 'Object Repository/Page/login/Page login/input_loginPwd'
+
+2018-05-04 17:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/Page login/button_login' is clicked on
+
+2018-05-04 17:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/Page login/button_login' is clicked on
+
+2018-05-04 17:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_logout' is clicked on
+
+2018-05-04 17:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_logout' is clicked on
+
+2018-05-04 17:23:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-04 17:23:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-04 17:23:22 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-04 17:23:22 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-04 17:23:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 17:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login_Password search" classname="Test Cases/login/login_Password search" status="PASSED">
+         <system-out><![CDATA[2018-05-04 17:23:25 - [TEST_CASE][PASSED] - Test Cases/login/login_Password search: Test Cases/login/login_Password search
+
+2018-05-04 17:23:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://g5stdhwanta7.godomall.com' successfully
+
+2018-05-04 17:23:26 - [MESSAGE][PASSED] - Navigate to 'http://g5stdhwanta7.godomall.com' successfully
+
+2018-05-04 17:23:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 17:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 17:23:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/Page login/button_password_search' is clicked on
+
+2018-05-04 17:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/Page login/button_password_search' is clicked on
+
+2018-05-04 17:23:26 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/Page/login/search/Password search/input_memberId'
+
+2018-05-04 17:23:27 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/Page/login/search/Password search/input_memberId'
+
+2018-05-04 17:23:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/search/Password search/button_next' is clicked on
+
+2018-05-04 17:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/search/Password search/button_next' is clicked on
+
+2018-05-04 17:23:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/search/Password search/label_email auth' is clicked on
+
+2018-05-04 17:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/search/Password search/label_email auth' is clicked on
+
+2018-05-04 17:23:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/search/Password search/button_next' is clicked on
+
+2018-05-04 17:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/search/Password search/button_next' is clicked on
+
+2018-05-04 17:23:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-04 17:23:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-04 17:23:29 - [TEST_STEP][PASSED] - Statement - alert = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: '메일이 발송되었습니다.'
+
+2018-05-04 17:23:29 - [MESSAGE][PASSED] - Get alert text successfully: '메일이 발송되었습니다.'
+
+2018-05-04 17:23:29 - [TEST_STEP][PASSED] - verifyMatch: Actual text '메일이 발송되었습니다.' and expected text '메일이 발송되었습니다.' are matched 
+
+2018-05-04 17:23:29 - [MESSAGE][PASSED] - Actual text '메일이 발송되었습니다.' and expected text '메일이 발송되었습니다.' are matched 
+
+2018-05-04 17:23:29 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-04 17:23:29 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-04 17:23:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/search/Password search/button_before' is clicked on
+
+2018-05-04 17:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/search/Password search/button_before' is clicked on
+
+2018-05-04 17:23:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/search/Password search/label_SMS auth' is clicked on
+
+2018-05-04 17:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/search/Password search/label_SMS auth' is clicked on
+
+2018-05-04 17:23:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/login/search/Password search/button_next' is clicked on
+
+2018-05-04 17:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/login/search/Password search/button_next' is clicked on
+
+2018-05-04 17:23:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-04 17:23:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-04 17:23:32 - [TEST_STEP][PASSED] - Statement - alert2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'SMS가 발송되었습니다.'
+
+2018-05-04 17:23:32 - [MESSAGE][PASSED] - Get alert text successfully: 'SMS가 발송되었습니다.'
+
+2018-05-04 17:23:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'SMS가 발송되었습니다.' and expected text 'SMS가 발송되었습니다.' are matched 
+
+2018-05-04 17:23:32 - [MESSAGE][PASSED] - Actual text 'SMS가 발송되었습니다.' and expected text 'SMS가 발송되었습니다.' are matched 
+
+2018-05-04 17:23:32 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-04 17:23:32 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-04 17:23:07 - [TEST_SUITE][PASSED] - login: Test Cases/login/login_Password search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

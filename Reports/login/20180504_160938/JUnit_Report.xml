@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="20" tests="1" failures="1" errors="0">
+   <testsuite name="login" tests="1" failures="1" errors="0" time="20" timestamp="2018-05-04 16:09:40" hostname="hwanta - DESKTOP-0ALRP70" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\godo\\Katalon Studio\\front\\Reports\\login\\20180504_160938"/>
+         <property name="logFiles" value="C:\\Users\\godo\\Katalon Studio\\front\\Reports\\login\\20180504_160938\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hwanta - DESKTOP-0ALRP70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.77.236.189"/>
+         <property name="sessionId" value="3d6d4b5a9b07cc88437fc48d744ae21b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_invalid_logout" classname="Test Cases/login/login_invalid_logout" status="PASSED">
+         <system-out><![CDATA[2018-05-04 16:09:40 - [TEST_CASE][PASSED] - Test Cases/login/login_invalid_logout: Test Cases/login/login_invalid_logout
+
+2018-05-04 16:09:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'g5stdhwanta7.godomall.com'
+
+2018-05-04 16:09:48 - [MESSAGE][PASSED] - Browser is opened with url: 'g5stdhwanta7.godomall.com'
+
+2018-05-04 16:09:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 16:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 16:09:49 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/Page/Page_login/input_loginId'
+
+2018-05-04 16:09:49 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/Page/Page_login/input_loginId'
+
+2018-05-04 16:09:49 - [TEST_STEP][PASSED] - setText: Text '7894561231' is set on object 'Object Repository/Page/Page_login/input_loginPwd'
+
+2018-05-04 16:09:49 - [MESSAGE][PASSED] - Text '7894561231' is set on object 'Object Repository/Page/Page_login/input_loginPwd'
+
+2018-05-04 16:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/Page_login/button_login' is clicked on
+
+2018-05-04 16:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/Page_login/button_login' is clicked on
+
+2018-05-04 16:09:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-04 16:09:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-04 16:09:51 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-04 16:09:52 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-04 16:09:52 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/Page/Page_login/input_loginId'
+
+2018-05-04 16:09:52 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/Page/Page_login/input_loginId'
+
+2018-05-04 16:09:52 - [TEST_STEP][PASSED] - setText: Text '789456123w' is set on object 'Object Repository/Page/Page_login/input_loginPwd'
+
+2018-05-04 16:09:52 - [MESSAGE][PASSED] - Text '789456123w' is set on object 'Object Repository/Page/Page_login/input_loginPwd'
+
+2018-05-04 16:09:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/Page_login/button_login' is clicked on
+
+2018-05-04 16:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/Page_login/button_login' is clicked on
+
+2018-05-04 16:09:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_logout' is clicked on
+
+2018-05-04 16:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_logout' is clicked on
+
+2018-05-04 16:09:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-04 16:09:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-04 16:09:56 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-04 16:09:56 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-04 16:09:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 16:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login_ID, PW search" classname="Test Cases/login/login_ID, PW search" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text '회원님의 아이디는' and expected text 'hwanta' (Root cause: Actual text '회원님의 아이디는' and expected text 'hwanta' are not matched)"/>
+         <system-out><![CDATA[2018-05-04 16:09:57 - [TEST_CASE][FAILED] - Test Cases/login/login_ID, PW search: Test Cases/login/login_ID, PW search FAILED because (of) Unable to verify match between actual text '회원님의 아이디는' and expected text 'hwanta' (Root cause: Actual text '회원님의 아이디는' and expected text 'hwanta' are not matched)
+
+2018-05-04 16:09:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://g5stdhwanta7.godomall.com' successfully
+
+2018-05-04 16:09:58 - [MESSAGE][PASSED] - Navigate to 'http://g5stdhwanta7.godomall.com' successfully
+
+2018-05-04 16:09:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 16:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TOP/top_navi/header_login' is clicked on
+
+2018-05-04 16:09:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page/Page_login/button_id_search' is clicked on
+
+2018-05-04 16:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page/Page_login/button_id_search' is clicked on
+
+2018-05-04 16:10:00 - [TEST_STEP][PASSED] - setText: Text 'hwanta' is set on object 'Object Repository/Page/Page_login/search/input_userName'
+
+2018-05-04 16:10:00 - [MESSAGE][PASSED] - Text 'hwanta' is set on object 'Object Repository/Page/Page_login/search/input_userName'
+
+2018-05-04 16:10:00 - [TEST_STEP][PASSED] - setText: Text 'hwanta@godo.co.kr' is set on object 'Object Repository/Page/Page_login/search/input_userEmail'
+
+2018-05-04 16:10:00 - [MESSAGE][PASSED] - Text 'hwanta@godo.co.kr' is set on object 'Object Repository/Page/Page_login/search/input_userEmail'
+
+2018-05-04 16:10:00 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '회원님의 아이디는' and expected text 'hwanta' (Root cause: Actual text '회원님의 아이디는' and expected text 'hwanta' are not matched)
+
+2018-05-04 16:10:00 - [MESSAGE][FAILED] - Unable to verify match between actual text '회원님의 아이디는' and expected text 'hwanta' (Root cause: Actual text '회원님의 아이디는' and expected text 'hwanta' are not matched)]]></system-out>
+         <system-err><![CDATA[2018-05-04 16:09:57 - [TEST_CASE][FAILED] - Test Cases/login/login_ID, PW search: Test Cases/login/login_ID, PW search FAILED because (of) Unable to verify match between actual text '회원님의 아이디는' and expected text 'hwanta' (Root cause: Actual text '회원님의 아이디는' and expected text 'hwanta' are not matched)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-04 16:09:40 - [TEST_SUITE][FAILED] - login: Test Cases/login/login_ID, PW search FAILED because (of) Unable to verify match between actual text '회원님의 아이디는' and expected text 'hwanta' (Root cause: Actual text '회원님의 아이디는' and expected text 'hwanta' are not matched)]]></system-out>
+      <system-err><![CDATA[2018-05-04 16:09:40 - [TEST_SUITE][FAILED] - login: Test Cases/login/login_ID, PW search FAILED because (of) Unable to verify match between actual text '회원님의 아이디는' and expected text 'hwanta' (Root cause: Actual text '회원님의 아이디는' and expected text 'hwanta' are not matched)]]></system-err>
+   </testsuite>
+</testsuites>
