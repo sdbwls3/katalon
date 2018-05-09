@@ -21,3 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('http://sdblws3.godomall.com')
 
+WebUI.back()
+
